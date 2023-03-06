@@ -63,8 +63,10 @@ public class ProductServicesTests {
         Mockito.when(repository.findById(nonExistingId)).thenReturn(Optional.empty());
         Mockito.when(repository.getReferenceById(existingId)).thenReturn(product);
         Mockito.when(repository.getReferenceById(nonExistingId)).thenThrow(EntityNotFoundException.class);
+
         Mockito.when(categoryRepository.getReferenceById(existingId)).thenReturn(category);
         Mockito.when(categoryRepository.getReferenceById(nonExistingId)).thenThrow(EntityNotFoundException.class);
+
         Mockito.doNothing().when(repository).deleteById(existingId);
         Mockito.doThrow(EmptyResultDataAccessException.class).when(repository).deleteById(nonExistingId);
         Mockito.doThrow(DataIntegrityViolationException.class).when(repository).deleteById(dependentId);
