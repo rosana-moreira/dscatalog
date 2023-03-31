@@ -99,7 +99,4 @@ public class ProductDTO implements Serializable {
         return categories;
     }
 
-    public void setCategories(List<CategoryDTO> categories) {
-        this.categories = categories;
-    }
 }
