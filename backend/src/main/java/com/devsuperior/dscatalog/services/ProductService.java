@@ -53,7 +53,7 @@ public class ProductService {
     @Transactional
     public ProductDTO update(ProductDTO dto, Long id) {
         try {
-            Product entity = repository.getReferenceById(id);
+            Product entity = repository.getOne(id);
             copyDtoEntity(dto, entity);
             entity = repository.save(entity);
             return new ProductDTO(entity);
