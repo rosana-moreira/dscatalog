@@ -1,7 +1,7 @@
 # Bootcamp Dev-Superior
 ---
 ## Modelo conceitual
-![Modelo Conceitual](https://github.com/rosana-moreira/dscatalog/blob/main/img/modeloConceitual.png)
+![Modelo Conceitual](https://github.com/rosana-moreira/dscatalog/blob/master/img/modeloConceitual.png)
 
 # Tecnologias utilizadas
 - Java
