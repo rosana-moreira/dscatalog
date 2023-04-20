@@ -1,5 +1,19 @@
 # Bootcamp Dev-Superior
 ---
+## Modelo conceitual
+![Modelo Conceitual](https://github.com/rosana-moreira/dscatalog/blob/main/img/modeloConceitual.png)
+
+# Tecnologias utilizadas
+- Java
+- Spring Boot / Data / Security
+- JPA / Hibernate
+- Maven
+- OAuth2
+- JWT
+- PostgreSQL
+- Junit
+- Mockito
+...
 
 ## Anotações CRUD - cap 01
 
