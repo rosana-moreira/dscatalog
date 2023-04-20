@@ -1,4 +1,4 @@
-# Bootcamp Dev-Superior
+# DSCatalog - Bootcamp Dev Superior
 ---
 ## Modelo conceitual
 ![Modelo Conceitual](https://github.com/rosana-moreira/dscatalog/blob/master/img/modeloConceitual.png)
